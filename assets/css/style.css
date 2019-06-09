@@ -1,0 +1,745 @@
+/*
+===========================================================
+Template Name: Qwertylab - One Page HTML5 Template.
+Version: 1.0.1
+Author: Shakib Hassan
+===========================================================
+
+
+====================== Table Content ======================
+
+1. Custom Font
+
+2. Base CSS
+
+3. All Background Images
+
+4. Header Top CSS
+
+5. Header CSS
+
+6. Service CSS
+
+7. Presentation CSS
+
+8. Portfolio CSS
+
+9. Price CSS
+
+10. Contact CSS
+
+11. Footer CSS
+
+*/
+
+/*
+===========================
+1. Custom Font
+===========================
+*/
+
+/*MTVUpgrade Bold Font*/
+@font-face {
+  font-family: 'MTVUpgrade-Bold';
+  src: url('../fonts/mtvupgrade-bold.eot');
+  src: url('../fonts/mtvupgrade-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/mtvupgrade-bold.woff2') format('woff2'), url('../fonts/MTVUpgrade-Bold.woff') format('woff'), url('../fonts/MTVUpgrade-Bold.ttf') format('truetype'), url('../fonts/MTVUpgrade-Bold.svg#CODEBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*SF UI Display Medium Font*/
+@font-face {
+  font-family: 'SFUIDisplay-Medium';
+  src: url('../fonts/SFUIDisplay-Medium.eot');
+  src: url('../fonts/SFUIDisplay-Medium.woff2') format('woff2'),
+       url('../fonts/SFUIDisplay-Medium.woff') format('woff'),
+       url('../fonts/SFUIDisplay-Medium.ttf') format('truetype'),
+       url('../fonts/SFUIDisplay-Medium.svg#SFUIDisplay-Medium') format('svg'),
+       url('../fonts/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*SF UI Display Regular Font*/
+@font-face {
+  font-family: 'SFUIDisplay-Regular';
+  src: url('../fonts/SFUIDisplay-Regular.eot');
+  src: url('../fonts/SFUIDisplay-Regular.woff2') format('woff2'),
+       url('../fonts/SFUIDisplay-Regular.woff') format('woff'),
+       url('../fonts/SFUIDisplay-Regular.ttf') format('truetype'),
+       url('../fonts/SFUIDisplay-Regular.svg#SFUIDisplay-Regular') format('svg'),
+       url('../fonts/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*SF UI Display Thin Font*/
+@font-face {
+  font-family: 'SFUIDisplay-Thin';
+  src: url('../fonts/SFUIDisplay-Thin.eot');
+  src: url('../fonts/SFUIDisplay-Thin.woff2') format('woff2'),
+       url('../fonts/SFUIDisplay-Thin.woff') format('woff'),
+       url('../fonts/SFUIDisplay-Thin.ttf') format('truetype'),
+       url('../fonts/SFUIDisplay-Thin.svg#SFUIDisplay-Thin') format('svg'),
+       url('../fonts/SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+===========================
+2. Base CSS
+===========================
+*/
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'MTVUpgrade-Bold', sans-serif;
+}
+body {
+    font-family: 'SFUIDisplay-Medium', sans-serif; font-size: 14px; line-height: 18px;
+}
+a:hover { text-decoration: none }
+
+/*
+===========================
+3. All Background Images
+===========================
+*/
+
+/* Header Background Image*/
+.header-area{
+    background-image: url(../img/header-bg.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+
+/* Presentation Background Image */
+
+.presentation-area{
+    background-image: url(../img/presentation/presentation-bg.jpg); background-size: cover; background-position: bottom center; background-color: #ddd;
+}
+
+/* Portfolio Background Image */
+
+.portfolio-item-bg-1{
+    background-image: url(); background-size: cover; background-position: center; background-color: #ddd;
+}
+
+.portfolio-item-bg-2{
+    background-image: url(../img/portfolio/deka.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+.portfolio-item-bg-3{
+    background-image: url(../img/portfolio/lipltyp.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+.portfolio-item-bg-4{
+    background-image: url(../img/portfolio/sMp4uTe.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+.portfolio-item-bg-5{
+    background-image: url(../img/portfolio/Podemnik6.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+.portfolio-item-bg-6{
+    background-image: url(../img/portfolio/x-ray-of-the-jaw.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+.portfolio-item-bg-7{
+    background-image: url(../img/portfolio/color-door.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+.portfolio-item-bg-8{
+    background-image: url(../img/portfolio/portfolio-bd-8.png); background-size: cover; background-position: center; background-color: #ddd;
+}
+
+/* Price Background Image*/
+
+.price-area{
+    background-image: url(../img/priceing-area-bg.jpg); background-size: cover; background-position: center; background-color: #ddd;
+}
+
+/*
+===========================
+4. Header Top CSS
+===========================
+*/
+
+.header-top {
+  background: #4a4a49;
+}
+.header-top a {
+  color: #969696;
+}
+#nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#nav-menu li {
+  display: inline-block;
+}
+#nav-menu li a {
+  font-size: 12px;
+  font-family: 'MTVUpgrade-Bold', sans-serif;
+  display: block;
+  padding: 11px 11px;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+}
+.logo img {
+  height: 35px;
+}
+.logo {
+	padding: 5px 0;
+}
+.phone-number {
+  font-family: 'SFUIDisplay-Regular', sans-serif;
+  padding-top: 12px;
+}
+.phone-number span {
+  color: #fff;
+}
+#nav-menu li a:hover {
+  color: #ffdd43;
+}
+
+/*
+===========================
+5. Header CSS
+===========================
+*/
+
+.header-area {
+  height: 580px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.header-content-table {
+  height: 580px;
+  display: table;
+}
+.header-content-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 22px;
+}
+.header-content-table-cell h1 {
+  font-size: 44px;
+  margin: 0 0 30px;
+}
+
+.header-content-table-cell h1 span {
+  display: block;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: 'SFUIDisplay-Medium', sans-serif;
+  font-weight: normal;
+  color: #d7cfc8;
+}
+.qwertylab-btn {
+  background: #ffdd43;
+  color: #27220b;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'SFUIDisplay-Medium', sans-serif;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.header-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  content: "";
+  z-index: -1;
+  opacity: .40;
+}
+.header-down-arrow {
+	position: absolute;
+	bottom: 40px;
+	right: 20%;
+	color: #fff;
+	font-size: 18px;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+}
+.header-down-arrow:hover {
+	color: #FFDD43;
+}
+
+/*
+===========================
+6. Service CSS
+===========================
+*/
+
+
+.service-area {
+  padding-top: 90px;
+  padding-bottom: 180px;
+}
+.qwertylab-section-title {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 16px;
+}
+.qwertylab-section-title h2 {
+  position: relative;
+  color: #434343;
+  margin: 0 0 30px;
+  padding-bottom: 30px;
+}
+.qwertylab-section-title h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  width: 68px;
+  background: #ffdd43;
+  content: "";
+  margin: auto;
+}
+.single-service-block {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+.qwertylab-section-title p {
+  color: #737373;
+}
+.service-icon {
+  width: 80px;
+  height: 80px;
+  background: #4a4a49;
+  line-height: 75px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 35px;
+}
+.service-icon img {
+  width: 56px;
+}
+.single-service-block h3 {
+  font-size: 20px;
+  color: #000;
+  opacity: .85;
+  position: relative;
+  margin: 0 0 30px;
+  padding-bottom: 28px;
+}
+.single-service-block h3:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  width: 68px;
+  background: #ffdd43;
+  content: "";
+  margin: auto;
+}
+.single-service-block p {
+  color: #737373;
+}
+
+/*
+===========================
+7. Presentation CSS
+===========================
+*/
+
+
+.presentation-img img {
+    width: 270px;
+}
+.presentation-area {
+  padding: 90px 0;
+  position: relative;
+  z-index: 1;
+}
+.presentation-content h2 span {
+  color: #DEC13D;
+}
+.presentation-content h2 {
+	color: #E6E6E6;
+	margin: 0 0 20px;
+	margin-left: 15px;
+}
+.presentation-content {
+  color: #fff;
+  margin-top: 136px;
+}
+.presentation-btn {
+	background: #DDDCE0;
+	color: #ec660d;
+	display: inline-block;
+	padding: 7px 30px;
+	border-radius: 3px;
+	margin-right: 25px;
+	margin-top: 80px;
+	position: relative;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+}
+.presentation-btn:hover .presentation-arrow-down {
+	visibility: visible;
+	opacity: 1;
+}
+.presentation-arrow-down {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 50px;
+	color: #CFCFD0;
+	font-size: 18px;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+}
+.presentation-btn:hover {
+  background: #FFDD43;
+  color: #483D0D;
+}
+.presentation-img {
+  text-align: center;
+}
+.presentation-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  content: "";
+  z-index: -1;
+  opacity: .40;
+}
+
+/*
+===========================
+8. Portfolio CSS
+==============================
+*/
+
+
+.single-portfolio-item {
+  height: 280px;
+  width: 33.3333%;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.single-portfolio-content img {
+  position: absolute;
+  padding: 10px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.single-portfolio-item:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #F0F0F0;
+  content: "";
+  z-index: -1;
+  opacity: .75;
+}
+.single-portfolio-item:nth-child(2)::after {
+	background: #000000;
+	opacity: .55;
+}
+.single-portfolio-item:nth-child(3)::after {
+	opacity: 0;
+}
+.single-portfolio-item:nth-child(4)::after {
+	background: #C3E9FC;
+	opacity: .55;
+}
+.single-portfolio-item:nth-child(5)::after {
+	background: #C3E9FC;
+	opacity: .55;
+}
+.single-portfolio-item:nth-child(7)::after {
+	background: #000;
+	opacity: .3;
+}
+.single-portfolio-item:nth-child(8)::after {
+	opacity: 0;
+}
+.single-portfolio-content {
+  position: absolute;
+  width: 90%;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+.single-portfolio-item:nth-child(4) {
+  height: 560px;
+}
+.single-portfolio-content h2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 42%;
+}
+.single-portfolio-content h2 span {
+  color: #EF7D2D;
+}
+/* Popup Model CSS */
+
+.portfolio-model-window-area .modal-dialog {
+	width: 70%;
+}
+.qwerylab-modal-left {
+	width: 50%;
+	float: left;
+	padding: 25px;
+}
+.qwerylab-modal-right {
+  padding: 25px;
+  width: 50%;
+  float: right;
+}
+.qwerylab-modal-right h3 {
+  color: #f05050;
+  margin: 0 0 30px;
+}
+.qwerylab-modal-right p {
+	color: #7c6c6c;
+	font-size: 13px;
+}
+.portfolio-model-window-area .modal-header {
+  border: none;
+}
+.portfolio-model-window-area .modal-footer {
+  border: none;
+}
+.portfolio-model-window-area .btn-default {
+	background: #FFDD43;
+	border: none;
+	border-radius: 3px;
+	padding: 8px 15px;
+	display: inline-block;
+	margin-top: 30px;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+.portfolio-model-window-area .btn-default:hover{
+    color: #ec660d;
+    background: #DDDCE0;
+    
+}
+.portfolio-model-window-area .close{
+    font-size: 25px;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    
+        
+}
+.portfolio-model-window-area .close:hover{
+    color: #F25050;
+    opacity: 1;
+        
+}
+
+/*
+===========================
+9. Price CSS
+==============================
+*/
+
+.price-area {
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+.price-section-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 90px;
+}
+.service-price-icon {
+	background: #4A4A49;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	display: block;
+	min-height: 396px;
+}
+.service-price-icon>ul li img {
+	width: 60px;
+	height: auto;
+}
+.single-price-block {
+	position: relative;
+	-webkit-box-shadow: 0 0 10px #838777;
+	        box-shadow: 0 0 10px #838777;
+}
+.service-price-icon ul {
+  margin: 0;
+  padding: 0;
+  line-height: ;
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+.service-price-icon ul li {
+	margin-bottom: 20px;
+}
+.service-price-details h3 {
+  background: #F0F0F0;
+  padding: 30px 0;
+  font-size: 20px;
+  color: #010101;
+  padding-left: 20px;
+} 
+.service-price-details h3.color-orange {
+	background: #FFEC98;
+}
+.col-minus-padding {
+  padding-left: 0px !important;
+}
+.service-price-details {
+	background: #FFFFFF;
+	padding-bottom: 30px;
+}
+.service-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #818181;
+	padding-left: 20px;
+	min-height: 100px;
+	margin-top: 35px;
+}
+.service-list li span {
+  color: #ec6608;
+}
+.price-amount {
+  text-align: center;
+  font-size: 30px;
+  color: #040405;
+  margin-top: 35px;
+  font-family: 'SFUIDisplay-regular', sans-serif;
+}
+.price-amount span {
+  font-weight: normal;
+  font-family: 'SFUIDisplay-Thin', sans-serif;
+}
+.service-price-details .qwertylab-btn {
+  padding: 8px 49px;
+  margin-left: 16%;
+}
+
+/*
+===========================
+10. Contact CSS
+==============================
+*/
+
+.contact-area {
+  padding-top: 90px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.contact-info h2 {
+  color: #474747;
+  font-weight: normal;
+  margin: 0 0 30px;
+  font-family: 'SFUIDisplay-Regular', sans-serif;
+}
+.contact-info h4 {
+  font-size: 16px;
+  margin: 0 0 30px;
+  font-family: 'SFUIDisplay-Regular', sans-serif;
+  color: #474747;
+}
+.contact-info h4 span {
+  display: block;
+  font-size: 30px;
+  margin-top: 25px;
+  color: #7F7F7F;
+  font-weight: normal;
+}
+
+.contact-info h4 span a {
+  color: #737373;
+  position: relative;
+  padding-bottom: 3px;
+}
+.contact-info h4 span a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #A6A6A6;
+  content: "";
+}
+
+/*
+===========================
+11. Footer CSS
+==============================
+*/
+
+
+.footer-area {
+  background: #FFDD43;
+  color: #26210A;
+  padding: 25px 0;
+}
+.footer-area a {
+  color: #433A12;
+}
+.footer-center {
+  text-align: center;
+}
+.footer-right {
+  text-align: right;
+}
+.footer-area a, .copy-text {
+  text-transform: uppercase;
+}

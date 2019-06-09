@@ -1,0 +1,134 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .phone-number {
+	padding-top: 12px;
+	font-size: 12px;
+}
+#nav-menu li a {
+	padding: 11px 5px;
+}
+.single-price-block {
+	margin-bottom: 30px;
+}
+.qwerylab-modal-right {
+	width: 100%;
+}
+.qwerylab-modal-left {
+	width: 100%;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.logo {
+	padding: 10px 0;
+	text-align: center;
+}
+.phone-number {
+	padding-top: 15px;
+	font-size: 12px;
+	text-align: center;
+}
+#nav-menu {
+	margin-top: 15px;
+	text-align: center;
+}
+#nav-menu li a {
+	padding: 8px 5px;
+}
+.header-area {
+	height: 450px;
+}
+.header-content-table-cell {
+	font-size: 14px;
+	line-height: 20px;
+}
+.header-content-table-cell h1 {
+	font-size: 36px;
+}
+.header-content-table {
+	height: auto;
+    margin-top: 50px;
+}
+.header-down-arrow {
+	bottom: 85px;
+	right: 10%;
+}
+.single-service-block {
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.service-area {
+	padding-bottom: 90px;
+}
+.presentation-content {
+	color: #fff;
+	margin-top: 110px;
+	text-align: center;
+}
+.presentation-btn {
+	margin-top: 85px;
+}
+.single-portfolio-item {
+	width: 100%;
+}
+.single-price-block {
+	margin-bottom: 30px;
+}
+.service-price-icon ul li {
+	display: inline-block;
+	margin-left: 5px;
+}
+.service-price-details {
+	text-align: center;
+}
+.service-price-details .qwertylab-btn {
+	margin-left: 0;
+}
+.service-price-icon ul {
+	text-align: center;
+}
+.service-price-icon > ul li img {
+	width: 50px;
+}
+.service-price-details {
+	margin-top: 90px;
+}
+.col-minus-padding {
+	padding: 0px !important;
+}
+.contact-info h2 {
+	font-size: 25px;
+}
+.contact-info h4 span {
+	font-size: 25px;
+}
+.footer-area {
+	text-align: center;
+}
+.footer-right {
+	text-align: center;
+}
+.footer-center {
+	margin: 6px 0;
+}
+.qwerylab-modal-right {
+	width: 100%;
+}
+.qwerylab-modal-left {
+	width: 100%;
+}    
+.portfolio-model-window-area .modal-dialog {
+	width: 95%;
+	margin: auto;
+}  
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
